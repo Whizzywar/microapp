@@ -39,6 +39,13 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "240de859-0720-4528-86cb-19a5416378c3"
+      }
+    },
+    "owner": "whizzyware"
   }
 }
