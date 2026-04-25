@@ -1,6 +1,7 @@
-import { Link } from "expo-router";
 import { ScrollView, Text } from "react-native";
 import HomeHeader from "../component/HomeHeader";
+import MacroGrid from "../component/MacroGrid";
+import RecentMeals from "../component/RecentMeals";
 import { globalStyles } from "../styles/global";
 
 export default function HomeScreen() {
@@ -8,9 +9,8 @@ export default function HomeScreen() {
     <ScrollView style={globalStyles.container}>
       <Text style={globalStyles.title}>MicroApp</Text>
       <HomeHeader />
-      <Link href="/AddMealScreen" style={{ fontSize: 18, color: "#007bff" }}>
-        Go to Add Meal
-      </Link>
+      <MacroGrid />
+      <RecentMeals />
     </ScrollView>
   );
 }
