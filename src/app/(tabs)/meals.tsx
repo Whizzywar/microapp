@@ -1,5 +1,5 @@
 import { ScrollView, Text } from "react-native";
-import { globalStyles } from "../app/styles/global";
+import { globalStyles } from "../styles/global";
 
 export default function MealsScreen() {
   return (
