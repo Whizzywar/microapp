@@ -8,8 +8,8 @@ import {
   TouchableOpacity,
   View,
 } from "react-native";
-import { addMeal } from "../storage/meals";
 import { colors, globalStyles } from "../styles/global";
+import { addMeal } from "./../storage/meals";
 
 export default function AddMealScreen() {
   const [name, setName] = useState("");
