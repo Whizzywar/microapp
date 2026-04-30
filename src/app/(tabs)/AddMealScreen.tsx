@@ -10,6 +10,7 @@ import {
 } from "react-native";
 import { colors, globalStyles } from "../styles/global";
 import { addMeal } from "./../storage/meals";
+import * as Haptics from "expo-haptics";
 
 export default function AddMealScreen() {
   const [name, setName] = useState("");
