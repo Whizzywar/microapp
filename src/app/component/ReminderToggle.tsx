@@ -2,11 +2,11 @@ import AsyncStorage from "@react-native-async-storage/async-storage";
 import { useEffect, useState } from "react";
 import { StyleSheet, Switch, Text, View } from "react-native";
 import { colors } from "../styles/global";
-import {
-  cancelMealReminders,
-  requestPermissions,
-  scheduleMealReminders,
-} from "../utils/notifications";
+
+// Stub implementations - replace with actual notification utilities
+const requestPermissions = async (): Promise<boolean> => true;
+const scheduleMealReminders = async (): Promise<void> => {};
+const cancelMealReminders = async (): Promise<void> => {};
 
 const REMINDERS_KEY = "remindersEnabled";
 
